@@ -1,0 +1,22 @@
+﻿OrderID,OrderDate,Product,Quantity,Region,Customer Type,Sales Person,PaymentMethod,Discount
+ORD001,05/01/2026,Laptop,2,London,Business,James,Bank Transfer,5
+ORD002,12/01/2026,Monitor,1,South West,Consumer,Sarah,Credit Card,0
+ORD003,25/01/2026,Keyboard,3,Midlands,Business,Michael,Bank Transfer,10
+ORD004,03/02/2026,Mouse,2,North West,consumer,Emma,PayPal,0
+ORD005,14/02/2026,Laptop,5,London,Business,James,Bank Transfer,15
+ORD006,27/02/2026,Headset,1,South West,Consumer,Sarah,,0
+ORD007,06/03/2026,Monitor,4,Midlands,Business,Michael,Bank Transfer,10
+ORD008,19/03/2026,Webcam,2,,Consumer,Emma,Credit Card,5
+ORD009,02/04/2026,Keyboard,1,North West,Consumer,James,PayPal,120
+ORD010,16/04/2026,laptop,3,South West,Business,Sarah,Bank Transfer,10
+ORD011,29/04/2026,Mouse,4,Midlands,Business, Michael ,Credit Card,5
+ORD012,08/05/2026,Headset,2,London,Consumer,Emma,Debit Card,0
+ORD013,21/05/2026,Monitor,2,NorthWest,Business,James,Bank Transfer,5
+ORD014,04/06/2026,Webcam,1,South West,Consumer,Sarah,Paypal,0
+ORD015,32/06/2026,Laptop,4,Midlands,Business,Michael,Bank Transfer,15
+ORD016,01/07/2026,Keyboard,2,London,Consumer,Emma,Credit Card,0
+ORD017,13/07/2026,Monitor,-3,South West,Business,James,Bank Transfer,10
+ORD018,24/07/2026,Mouse,1,North West,Consumer,Sarah,Debit Card,0
+ORD019,03/08/2026,Headset,3,Midlands,Business,Michael,Credit Card,-10
+ORD020,08/08/2026,Laptop,0,London,Consumer,Emma,PayPal,0
+ORD003,25/01/2026,Keyboard,3,Midlands,Business,Michael,Bank Transfer,10

@@ -1,0 +1,22 @@
+﻿Product,Category,UnitPrice
+Laptop,Computer,1200
+Desktop PC,Computer,950
+Mini PC,Computer,700
+Gaming Laptop,Computer,1800
+Monitor,Display,180
+"Monitor 27""",Display,280
+Ultrawide Monitor,Display,520
+Keyboard,Accessories,
+Mechanical Keyboard,Accessories,120
+Mouse,Accessories,35
+Gaming Mouse,Accessorise,80
+Docking Station,Accessorise,180
+USB Hub,Accessories,40
+External SSD,Accessories,-140
+Headset,Audio,150
+Speakers,Audio,220
+Microphone,Audio,130
+Web Cam,Video,90
+Conference Camera,Video,350
+Printer,Office,320
+Mechanical Keyboard,Accessories,120
