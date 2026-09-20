@@ -1,0 +1,501 @@
+OrderID,OrderDate,ProductID,Product,Quantity,Region,Customer Type,Sales Person,PaymentMethod,Discount
+ORD119,2025-11-03,P014,External SSD,3,Midlands,Business,Emma,Bank Transfer,10
+ORD397,2026-06-26,P010,Mouse,2,South West,Consumer,Sarah,PayPal,5
+ORD240,2026-02-23,P003,Mini PC,3,North West,Business,James,Credit Card,5
+ORD246,2026-02-09,P006,"Monitor 27""",1,North West,Business,Emma,Credit Card,15
+ORD344,2026-04-10,P012,Docking Station,3,North West,Consumer,Michael,PayPal,0
+ORD265,2026-02-10,P001,Laptop,3,South West,Business,James,Bank Transfer,10
+ORD282,2026-03-21,P005,Monitor,1,Midlands,Consumer,Sarah,Credit Card,0
+ORD342,2026-04-06,P020,Printer,1,South West,Consumer,Emma,Debit Card,5
+ORD132,2025-11-25,P006,"Monitor 27""",1,Midlands,Business,Emma,PayPal,5
+ORD434,2026-07-21,P016,Speakers,4,London,Consumer,Emma,Credit Card,10
+ORD285,2026-03-29,P018,Webcam,3,South West,Business,James,Credit Card,5
+ORD211,2026-01-24,P020,Printer,1,London,Consumer,Emma,Bank Transfer,15
+ORD097,2025-11-12,P004,Gaming Laptop,1,London,Consumer,Sarah,PayPal,0
+ORD271,2026-03-26,P011,Gaming Mouse,1,South West,Consumer,Emma,Credit Card,0
+ORD183,2025-12-20,P004,Gaming Laptop,1,Midlands,Consumer,James,Credit Card,0
+ORD363,2026-05-06,P010,Mouse,3,North West,Business,Emma,Credit Card,10
+ORD337,2026-04-21,P020,Printer,1,South West,Consumer,Sarah,Credit Card,5
+ORD253,2026-02-02,P010,Mouse,1,South West,Consumer,Sarah,Credit Card,10
+ORD239,2026-02-25,P008,Keyboard,2,London,Consumer,James,Credit Card,10
+ORD416,2026-06-08,P008,Keyboard,2,Midlands,Consumer,Emma,Debit Card,10
+ORD440,2026-07-13,P002,Desktop PC,4,Midlands,Business,Michael,Bank Transfer,5
+ORD236,2026-02-04,P005,Monitor,1,South West,Business,Sarah,Bank Transfer,5
+ORD417,2026-06-15,P014,External SSD,2,London,Business,Emma,Bank Transfer,10
+ORD061,2025-10-11,P009,Mechanical Keyboard,3,South West,Consumer,Sarah,Bank Transfer,5
+ORD300,2026-03-20,P005,Monitor,2,South West,Consumer,James,Credit Card,0
+ORD492,2026-08-20,P016,Speakers,2,Midlands,Consumer,Michael,Credit Card,0
+ORD222,2026-01-05,P007,Ultrawide Monitor,3,South West,Business,James,Credit Card,10
+ORD130,2025-11-28,P014,External SSD,2,London,Consumer,James,Debit Card,5
+ORD324,2026-04-29,P012,Docking Station,3,South West,Business,Sarah,Credit Card,10
+ORD166,2025-12-24,P013,USB Hub,2,Midlands,Consumer,Sarah,Credit Card,5
+ORD293,2026-03-02,P010,Mouse,4,South West,Business,Sarah,Credit Card,15
+ORD242,2026-02-28,P017,Microphone,1,Midlands,Business,Michael,Debit Card,15
+ORD499,2026-08-28,P010,Mouse,2,North West,Business,Emma,Bank Transfer,10
+ORD352,2026-05-06,P004,Gaming Laptop,2,London,Consumer,Sarah,Debit Card,0
+ORD436,2026-07-11,P007,Ultrawide Monitor,1,London,Consumer,Sarah,Bank Transfer,10
+ORD035,2025-09-24,P009,Mechanical Keyboard,1,Midlands,Consumer,James,PayPal,0
+ORD029,2025-09-19,P003,Mini PC,1,South West,Consumer,Sarah,Bank Transfer,5
+ORD241,2026-02-26,P008,Keyboard,1,South West,Consumer,Sarah,Credit Card,0
+ORD167,2025-12-12,P002,Desktop PC,2,Midlands,Business,James,Debit Card,20
+ORD144,2025-12-28,P013,USB Hub,1,North West,Consumer,Sarah,Credit Card,5
+ORD355,2026-05-18,P014,External SSD,2,South West,Business,James,Credit Card,0
+ORD076,2025-10-17,P010,Mouse,2,South West,Consumer,James,Debit Card,5
+ORD486,2026-08-01,P017,Microphone,3,South West,Consumer,James,Credit Card,0
+ORD148,2025-12-10,P020,Printer,1,South West,Consumer,Sarah,PayPal,0
+ORD303,2026-03-28,P013,USB Hub,4,London,Business,James,Credit Card,5
+ORD250,2026-02-19,P016,Speakers,2,South West,Consumer,Sarah,Debit Card,0
+ORD267,2026-02-16,P018,Webcam,1,Midlands,Business,James,Debit Card,10
+ORD483,2026-08-01,P010,Mouse,3,Midlands,Business,Michael,Credit Card,5
+ORD395,2026-06-18,P010,Mouse,2,London,Consumer,Emma,Credit Card,0
+ORD425,2026-06-10,P011,Gaming Mouse,2,North West,Consumer,Emma,Credit Card,0
+ORD356,2026-05-21,P008,Keyboard,3,Midlands,Consumer,Emma,Credit Card,0
+ORD083,2025-10-23,P010,Mouse,3,Midlands,Consumer,Michael,Credit Card,0
+ORD057,2025-10-15,P016,Speakers,1,North West,Consumer,Sarah,PayPal,0
+ORD170,2025-12-21,P011,Gaming Mouse,1,Midlands,Consumer,Michael,PayPal,5
+ORD213,2026-01-23,P006,"Monitor 27""",3,London,Consumer,Sarah,PayPal,5
+ORD038,2025-09-19,P006,"Monitor 27""",2,South West,Consumer,Michael,Debit Card,0
+ORD351,2026-05-16,P001,Laptop,1,South West,Consumer,Sarah,Debit Card,5
+ORD134,2025-11-04,P013,USB Hub,3,North West,Consumer,Emma,Credit Card,10
+ORD171,2025-12-05,P009,Mechanical Keyboard,1,Midlands,Consumer,Sarah,Credit Card,0
+ORD017,2026-07-13,P005,Monitor,3,South West,Business,James,Bank Transfer,10
+ORD055,2025-09-03,P016,Speakers,4,Midlands,Business,Michael,Bank Transfer,15
+ORD390,2026-05-09,P009,Mechanical Keyboard,2,Midlands,Business,Michael,Bank Transfer,5
+ORD081,2025-10-26,P010,Mouse,3,London,Business,Emma,PayPal,20
+ORD381,2026-05-28,P011,Gaming Mouse,3,London,Consumer,James,Credit Card,5
+ORD286,2026-03-31,P008,Keyboard,1,North West,Consumer,Michael,PayPal,20
+ORD087,2025-10-06,P013,USB Hub,2,London,Consumer,James,Debit Card,0
+ORD262,2026-02-11,P012,Docking Station,6,South West,Business,Sarah,Credit Card,15
+ORD275,2026-03-27,P010,Mouse,2,London,Consumer,Emma,Debit Card,5
+ORD070,2025-10-17,P016,Speakers,4,North West,Business,Emma,Credit Card,15
+ORD153,2025-12-07,P009,Mechanical Keyboard,1,London,Consumer,James,PayPal,0
+ORD231,2026-01-24,P014,External SSD,2,London,Consumer,James,Bank Transfer,10
+ORD332,2026-04-11,P010,Mouse,3,Midlands,Business,Sarah,Debit Card,5
+ORD217,2026-01-13,P008,Keyboard,3,South West,Business,Michael,Bank Transfer,20
+ORD186,2025-12-12,P018,Webcam,1,Midlands,Consumer,James,Credit Card,10
+ORD455,2026-07-08,P015,Headset,3,South West,Business,James,Debit Card,0
+ORD152,2025-12-04,P016,Speakers,1,Midlands,Consumer,Michael,Credit Card,0
+ORD093,2025-10-29,P008,Keyboard,1,South West,Consumer,Sarah,Debit Card,0
+ORD023,2025-09-04,P005,Monitor,1,Midlands,Consumer,James,Debit Card,0
+ORD234,2026-01-04,P015,Headset,5,North West,Business,Sarah,Bank Transfer,15
+ORD044,2025-09-16,P010,Mouse,3,South West,Business,Emma,Debit Card,5
+ORD092,2025-10-25,P011,Gaming Mouse,1,South West,Consumer,James,Credit Card,0
+ORD015,2026-06-18,P001,Laptop,4,Midlands,Business,Michael,Bank Transfer,15
+ORD024,2025-09-17,P008,Keyboard,2,South West,Consumer,Sarah,Debit Card,20
+ORD398,2026-06-22,P005,Monitor,2,South West,Consumer,Michael,Credit Card,5
+ORD392,2026-06-06,P015,Headset,1,Midlands,Consumer,James,Debit Card,5
+ORD331,2026-04-12,P010,Mouse,2,South West,Consumer,Sarah,PayPal,10
+ORD101,2025-11-13,P015,Headset,2,London,Consumer,James,Credit Card,5
+ORD256,2026-02-10,P003,Mini PC,3,Midlands,Business,Michael,Credit Card,5
+ORD423,2026-06-23,P013,USB Hub,5,London,Business,Michael,Bank Transfer,10
+ORD199,2025-12-06,P003,Mini PC,1,North West,Business,Sarah,Credit Card,5
+ORD289,2026-03-08,P016,Speakers,2,South West,Consumer,Sarah,Debit Card,0
+ORD102,2025-11-25,P003,Mini PC,3,North West,Business,Michael,Credit Card,10
+ORD042,2025-09-02,P013,USB Hub,4,London,Business,Sarah,Bank Transfer,15
+ORD025,2025-09-03,P011,Gaming Mouse,4,North West,Business,Emma,Bank Transfer,5
+ORD027,2025-09-23,P003,Mini PC,4,North West,Business,Michael,Debit Card,10
+ORD358,2026-05-27,P007,Ultrawide Monitor,1,London,Business,Michael,Bank Transfer,15
+ORD441,2026-07-10,P007,Ultrawide Monitor,1,South West,Consumer,James,PayPal,0
+ORD283,2026-03-21,P012,Docking Station,1,Midlands,Consumer,Emma,Debit Card,0
+ORD298,2026-03-31,P006,"Monitor 27""",2,South West,Business,Michael,Credit Card,5
+ORD001,2026-01-05,P001,Laptop,2,London,Business,James,Bank Transfer,5
+ORD225,2026-01-23,P020,Printer,3,London,Business,Emma,Credit Card,5
+ORD384,2026-05-01,P007,Ultrawide Monitor,1,North West,Consumer,Emma,Debit Card,0
+ORD268,2026-02-19,P003,Mini PC,2,Midlands,Consumer,James,PayPal,10
+ORD137,2025-11-26,P014,External SSD,2,Midlands,Consumer,Sarah,Debit Card,15
+ORD421,2026-06-26,P011,Gaming Mouse,1,North West,Business,Michael,Credit Card,10
+ORD400,2026-06-06,P013,USB Hub,1,London,Consumer,James,Credit Card,0
+ORD382,2026-05-16,P004,Gaming Laptop,1,North West,Consumer,James,Debit Card,10
+ORD052,2025-09-23,P019,Conference Camera,2,London,Business,Emma,PayPal,10
+ORD173,2025-12-25,P001,Laptop,1,London,Consumer,Emma,PayPal,0
+ORD113,2025-11-21,P016,Speakers,1,North West,Consumer,Emma,PayPal,10
+ORD008,2026-03-19,P018,Webcam,2,Unknown,Consumer,Emma,Credit Card,5
+ORD036,2025-09-26,P017,Microphone,2,South West,Consumer,Sarah,Credit Card,5
+ORD074,2025-10-13,P004,Gaming Laptop,2,South West,Consumer,Sarah,Credit Card,0
+ORD372,2026-05-05,P013,USB Hub,4,Midlands,Business,James,Bank Transfer,5
+ORD202,2026-01-05,P015,Headset,1,South West,Business,Sarah,Credit Card,0
+ORD060,2025-10-06,P015,Headset,2,South West,Consumer,Michael,PayPal,0
+ORD069,2025-10-23,P006,"Monitor 27""",1,South West,Consumer,Michael,Credit Card,5
+ORD049,2025-09-22,P020,Printer,1,North West,Business,Michael,Bank Transfer,0
+ORD224,2026-01-14,P013,USB Hub,3,London,Business,Emma,Bank Transfer,10
+ORD294,2026-03-17,P010,Mouse,3,South West,Business,James,Bank Transfer,5
+ORD201,2026-01-26,P015,Headset,2,South West,Consumer,Sarah,Credit Card,10
+ORD010,2026-04-16,P001,Laptop,3,South West,Business,Sarah,Bank Transfer,10
+ORD251,2026-02-10,P001,Laptop,2,Midlands,Business,Sarah,Bank Transfer,5
+ORD364,2026-05-19,P012,Docking Station,2,North West,Business,Sarah,Credit Card,0
+ORD328,2026-04-28,P014,External SSD,1,North West,Consumer,Sarah,PayPal,0
+ORD050,2025-09-27,P018,Webcam,2,South West,Business,James,Credit Card,5
+ORD249,2026-02-25,P005,Monitor,1,South West,Consumer,Sarah,Credit Card,0
+ORD257,2026-02-20,P003,Mini PC,3,North West,Business,Emma,Credit Card,10
+ORD048,2025-09-02,P010,Mouse,4,London,Business,Sarah,Debit Card,5
+ORD169,2025-12-30,P010,Mouse,3,London,Business,Michael,Credit Card,10
+ORD296,2026-03-03,P015,Headset,4,North West,Consumer,Sarah,Debit Card,5
+ORD460,2026-07-30,P007,Ultrawide Monitor,1,London,Consumer,Michael,Debit Card,5
+ORD490,2026-08-22,P002,Desktop PC,2,London,Business,James,Credit Card,10
+ORD121,2025-11-07,P009,Mechanical Keyboard,2,London,Consumer,Emma,Credit Card,0
+ORD477,2026-08-08,P006,"Monitor 27""",1,South West,Consumer,Michael,Debit Card,0
+ORD419,2026-06-27,P011,Gaming Mouse,3,London,Consumer,Michael,PayPal,20
+ORD066,2025-10-11,P014,External SSD,3,Midlands,Consumer,Michael,Debit Card,10
+ORD450,2026-07-29,P008,Keyboard,2,South West,Business,Sarah,Bank Transfer,20
+ORD399,2026-06-27,P010,Mouse,1,London,Consumer,James,PayPal,5
+ORD491,2026-08-29,P004,Gaming Laptop,1,London,Consumer,James,PayPal,5
+ORD278,2026-03-25,P007,Ultrawide Monitor,1,South West,Consumer,Michael,Credit Card,5
+ORD206,2026-01-05,P007,Ultrawide Monitor,1,London,Business,James,Debit Card,10
+ORD279,2026-03-19,P013,USB Hub,1,London,Consumer,Sarah,Credit Card,0
+ORD064,2025-10-28,P020,Printer,3,London,Consumer,James,Debit Card,5
+ORD089,2025-10-11,P019,Conference Camera,1,London,Business,Sarah,Credit Card,10
+ORD424,2026-06-25,P001,Laptop,3,London,Business,James,Credit Card,20
+ORD493,2026-08-28,P013,USB Hub,2,London,Consumer,Michael,Bank Transfer,5
+ORD216,2026-01-12,P013,USB Hub,3,London,Business,Michael,Bank Transfer,5
+ORD362,2026-05-14,P015,Headset,2,Midlands,Consumer,James,PayPal,5
+ORD151,2025-12-04,P005,Monitor,2,Midlands,Business,Emma,Bank Transfer,10
+ORD022,2025-09-03,P020,Printer,1,London,Consumer,James,Debit Card,0
+ORD338,2026-04-19,P017,Microphone,1,South West,Consumer,Sarah,PayPal,0
+ORD485,2026-08-31,P012,Docking Station,1,South West,Consumer,Sarah,Credit Card,0
+ORD176,2025-12-24,P011,Gaming Mouse,1,Midlands,Consumer,Emma,Credit Card,0
+ORD223,2026-01-22,P012,Docking Station,1,North West,Consumer,Emma,Debit Card,5
+ORD287,2026-03-12,P018,Webcam,1,London,Consumer,James,PayPal,0
+ORD220,2026-01-17,P009,Mechanical Keyboard,1,London,Consumer,Michael,PayPal,0
+ORD160,2025-12-28,P005,Monitor,3,South West,Business,James,Bank Transfer,5
+ORD228,2026-01-18,P005,Monitor,2,North West,Business,Sarah,PayPal,5
+ORD357,2026-05-04,P016,Speakers,2,North West,Consumer,Michael,PayPal,10
+ORD028,2025-09-22,P006,"Monitor 27""",1,South West,Consumer,Michael,Debit Card,0
+ORD500,2026-08-19,P004,Gaming Laptop,1,London,Consumer,Emma,Credit Card,0
+ORD428,2026-06-20,P017,Microphone,1,Midlands,Consumer,Michael,Credit Card,5
+ORD237,2026-02-06,P013,USB Hub,1,Midlands,Consumer,James,PayPal,10
+ORD466,2026-07-23,P013,USB Hub,1,London,Consumer,Michael,PayPal,5
+ORD369,2026-05-14,P011,Gaming Mouse,1,North West,Consumer,Emma,Credit Card,15
+ORD095,2025-11-03,P015,Headset,4,Midlands,Consumer,Emma,Debit Card,0
+ORD140,2025-11-01,P010,Mouse,2,South West,Business,Michael,Bank Transfer,15
+ORD178,2025-12-29,P008,Keyboard,4,South West,Consumer,James,Credit Card,0
+ORD109,2025-11-23,P007,Ultrawide Monitor,1,London,Consumer,Emma,Credit Card,0
+ORD128,2025-11-18,P015,Headset,1,North West,Consumer,Emma,Credit Card,0
+ORD232,2026-01-31,P017,Microphone,1,London,Consumer,James,Debit Card,10
+ORD495,2026-08-03,P006,"Monitor 27""",1,Midlands,Business,Michael,Bank Transfer,15
+ORD252,2026-02-04,P020,Printer,1,London,Business,Emma,Bank Transfer,20
+ORD408,2026-06-26,P016,Speakers,2,London,Consumer,Michael,Credit Card,0
+ORD360,2026-05-07,P005,Monitor,2,North West,Consumer,Emma,Bank Transfer,5
+ORD259,2026-02-18,P001,Laptop,1,North West,Consumer,James,Credit Card,0
+ORD255,2026-02-10,P001,Laptop,1,Midlands,Consumer,James,Credit Card,0
+ORD163,2025-12-10,P008,Keyboard,6,Midlands,Business,Emma,Bank Transfer,15
+ORD150,2025-12-26,P012,Docking Station,4,South West,Consumer,James,PayPal,5
+ORD180,2025-12-02,P011,Gaming Mouse,2,London,Consumer,Sarah,PayPal,0
+ORD429,2026-06-07,P013,USB Hub,6,London,Business,Emma,Debit Card,10
+ORD159,2025-12-29,P001,Laptop,2,South West,Consumer,James,Bank Transfer,0
+ORD304,2026-03-05,P010,Mouse,3,London,Business,Sarah,Bank Transfer,5
+ORD448,2026-07-22,P017,Microphone,4,Midlands,Business,Sarah,Debit Card,15
+ORD116,2025-11-26,P013,USB Hub,5,North West,Business,Emma,Bank Transfer,10
+ORD194,2025-12-01,P007,Ultrawide Monitor,1,Midlands,Consumer,Michael,PayPal,0
+ORD034,2025-09-18,P012,Docking Station,4,Midlands,Business,James,Debit Card,20
+ORD077,2025-10-16,P012,Docking Station,1,Midlands,Consumer,Michael,Debit Card,0
+ORD452,2026-07-21,P003,Mini PC,3,North West,Business,Michael,Bank Transfer,0
+ORD353,2026-05-25,P006,"Monitor 27""",1,London,Business,Michael,Bank Transfer,10
+ORD158,2025-12-24,P019,Conference Camera,1,Midlands,Business,James,Debit Card,15
+ORD197,2025-12-12,P001,Laptop,2,London,Business,Emma,Bank Transfer,15
+ORD427,2026-06-21,P015,Headset,4,South West,Consumer,Sarah,Debit Card,5
+ORD218,2026-01-25,P007,Ultrawide Monitor,1,South West,Consumer,Michael,Debit Card,5
+ORD088,2025-10-16,P004,Gaming Laptop,2,South West,Consumer,Michael,Credit Card,0
+ORD329,2026-04-03,P008,Keyboard,3,Midlands,Business,James,Debit Card,10
+ORD313,2026-04-08,P001,Laptop,4,North West,Business,Sarah,Bank Transfer,5
+ORD165,2025-12-30,P014,External SSD,1,Midlands,Consumer,Emma,Credit Card,5
+ORD147,2025-12-12,P006,"Monitor 27""",2,North West,Business,Emma,Debit Card,10
+ORD155,2025-12-25,P009,Mechanical Keyboard,1,London,Consumer,Michael,Credit Card,0
+ORD198,2025-12-23,P010,Mouse,3,London,Consumer,Sarah,PayPal,5
+ORD075,2025-10-14,P001,Laptop,1,South West,Business,Sarah,Bank Transfer,15
+ORD124,2025-11-12,P001,Laptop,3,North West,Business,James,Credit Card,10
+ORD320,2026-04-14,P014,External SSD,3,North West,Consumer,Michael,Debit Card,5
+ORD319,2026-04-20,P012,Docking Station,3,Midlands,Business,Sarah,Bank Transfer,10
+ORD281,2026-03-14,P006,"Monitor 27""",1,South West,Consumer,Emma,Debit Card,10
+ORD215,2026-01-29,P014,External SSD,2,London,Consumer,Michael,Bank Transfer,0
+ORD056,2025-10-26,P011,Gaming Mouse,2,Midlands,Consumer,Emma,Credit Card,0
+ORD316,2026-04-30,P010,Mouse,2,North West,Consumer,Emma,Credit Card,10
+ORD291,2026-03-29,P010,Mouse,3,South West,Business,James,Bank Transfer,0
+ORD373,2026-05-20,P012,Docking Station,2,South West,Business,Emma,Credit Card,15
+ORD379,2026-05-15,P011,Gaming Mouse,2,Midlands,Consumer,Emma,Credit Card,0
+ORD350,2026-05-11,P012,Docking Station,2,London,Business,Sarah,Bank Transfer,5
+ORD323,2026-04-03,P004,Gaming Laptop,3,London,Consumer,Sarah,Credit Card,0
+ORD317,2026-04-26,P015,Headset,5,North West,Business,Michael,Bank Transfer,10
+ORD315,2026-04-15,P001,Laptop,2,South West,Consumer,James,PayPal,0
+ORD359,2026-05-13,P009,Mechanical Keyboard,2,London,Consumer,Michael,Credit Card,5
+ORD208,2026-01-21,P019,Conference Camera,3,South West,Business,Sarah,Credit Card,20
+ORD026,2025-09-17,P003,Mini PC,3,London,Consumer,James,Credit Card,5
+ORD339,2026-04-15,P001,Laptop,1,London,Business,Michael,Debit Card,10
+ORD264,2026-02-06,P005,Monitor,1,London,Business,James,Bank Transfer,10
+ORD498,2026-08-18,P017,Microphone,1,South West,Consumer,James,Debit Card,10
+ORD345,2026-04-14,P010,Mouse,1,Midlands,Consumer,Michael,Credit Card,5
+ORD002,2026-01-12,P005,Monitor,1,South West,Consumer,Sarah,Credit Card,0
+ORD172,2025-12-04,P010,Mouse,4,London,Business,Emma,Credit Card,10
+ORD467,2026-07-06,P004,Gaming Laptop,1,London,Consumer,Sarah,Credit Card,5
+ORD471,2026-08-08,P008,Keyboard,1,London,Consumer,Michael,Debit Card,0
+ORD149,2025-12-02,P005,Monitor,1,North West,Consumer,James,PayPal,5
+ORD005,2026-02-14,P001,Laptop,5,London,Business,James,Bank Transfer,15
+ORD154,2025-12-20,P013,USB Hub,2,Midlands,Business,Emma,Credit Card,10
+ORD305,2026-03-31,P006,"Monitor 27""",3,South West,Business,Michael,PayPal,10
+ORD117,2025-11-01,P018,Webcam,1,Midlands,Business,Michael,Credit Card,10
+ORD181,2025-12-30,P001,Laptop,2,London,Business,Michael,Bank Transfer,20
+ORD084,2025-10-21,P010,Mouse,2,Midlands,Consumer,Sarah,Debit Card,15
+ORD196,2025-12-14,P006,"Monitor 27""",1,North West,Business,Michael,Bank Transfer,5
+ORD387,2026-05-09,P014,External SSD,3,North West,Consumer,Sarah,Credit Card,0
+ORD174,2025-12-22,P013,USB Hub,1,London,Consumer,Sarah,Credit Card,0
+ORD233,2026-01-02,P017,Microphone,1,South West,Consumer,Michael,Credit Card,10
+ORD054,2025-09-16,P013,USB Hub,1,Midlands,Consumer,Sarah,PayPal,0
+ORD245,2026-02-01,P001,Laptop,1,London,Business,Michael,Debit Card,15
+ORD098,2025-11-24,P004,Gaming Laptop,2,London,Consumer,Sarah,Debit Card,0
+ORD018,2026-07-24,P010,Mouse,1,North West,Consumer,Sarah,Debit Card,0
+ORD297,2026-03-05,P018,Webcam,2,South West,Business,Sarah,Bank Transfer,0
+ORD306,2026-03-24,P013,USB Hub,2,South West,Consumer,James,PayPal,0
+ORD200,2026-01-24,P004,Gaming Laptop,1,South West,Consumer,Sarah,Bank Transfer,10
+ORD413,2026-06-05,P010,Mouse,2,North West,Consumer,Emma,Debit Card,5
+ORD391,2026-06-12,P013,USB Hub,5,South West,Business,Sarah,PayPal,10
+ORD368,2026-05-20,P003,Mini PC,1,North West,Business,Emma,Debit Card,5
+ORD385,2026-05-07,P010,Mouse,1,London,Consumer,James,PayPal,10
+ORD091,2025-10-05,P009,Mechanical Keyboard,1,South West,Consumer,Sarah,Credit Card,0
+ORD110,2025-11-03,P008,Keyboard,3,London,Business,Michael,Debit Card,15
+ORD301,2026-03-02,P009,Mechanical Keyboard,2,London,Consumer,James,Credit Card,0
+ORD129,2025-11-23,P015,Headset,2,South West,Consumer,Michael,PayPal,5
+ORD482,2026-08-18,P006,"Monitor 27""",2,Midlands,Business,James,Bank Transfer,5
+ORD182,2025-12-16,P001,Laptop,1,South West,Consumer,Sarah,PayPal,10
+ORD349,2026-05-21,P009,Mechanical Keyboard,2,London,Business,James,Bank Transfer,5
+ORD406,2026-06-26,P017,Microphone,1,South West,Consumer,James,Bank Transfer,0
+ORD426,2026-06-23,P020,Printer,2,North West,Business,James,Bank Transfer,0
+ORD378,2026-05-20,P001,Laptop,1,South West,Consumer,James,Credit Card,5
+ORD276,2026-03-27,P009,Mechanical Keyboard,1,London,Consumer,James,Credit Card,5
+ORD086,2025-10-06,P015,Headset,1,Midlands,Business,Emma,Bank Transfer,15
+ORD409,2026-06-09,P006,"Monitor 27""",2,London,Consumer,James,Debit Card,0
+ORD125,2025-11-25,P009,Mechanical Keyboard,2,Midlands,Consumer,Michael,Credit Card,5
+ORD454,2026-07-08,P010,Mouse,1,South West,Consumer,Sarah,Credit Card,0
+ORD393,2026-06-04,P004,Gaming Laptop,1,Midlands,Consumer,Emma,Debit Card,0
+ORD142,2025-12-24,P010,Mouse,1,London,Business,Sarah,Debit Card,0
+ORD473,2026-08-01,P016,Speakers,1,London,Consumer,Emma,Debit Card,0
+ORD376,2026-05-11,P009,Mechanical Keyboard,4,London,Business,Emma,Bank Transfer,0
+ORD472,2026-08-11,P016,Speakers,3,North West,Consumer,Michael,PayPal,10
+ORD277,2026-03-14,P016,Speakers,6,South West,Business,James,Debit Card,0
+ORD299,2026-03-04,P013,USB Hub,2,Midlands,Consumer,James,PayPal,0
+ORD126,2025-11-09,P013,USB Hub,4,North West,Consumer,Emma,Credit Card,10
+ORD090,2025-10-31,P005,Monitor,1,Midlands,Consumer,Michael,Debit Card,5
+ORD012,2026-05-08,P015,Headset,2,London,Consumer,Emma,Debit Card,0
+ORD422,2026-06-23,P013,USB Hub,2,North West,Consumer,James,Debit Card,0
+ORD248,2026-02-28,P003,Mini PC,3,South West,Business,Michael,Credit Card,10
+ORD469,2026-07-03,P012,Docking Station,2,South West,Business,Emma,Debit Card,20
+ORD138,2025-11-15,P001,Laptop,2,Midlands,Business,Emma,Credit Card,5
+ORD100,2025-11-24,P010,Mouse,2,Midlands,Consumer,Michael,Bank Transfer,0
+ORD227,2026-01-11,P015,Headset,4,Midlands,Consumer,Emma,Debit Card,5
+ORD016,2026-07-01,P008,Keyboard,2,London,Consumer,Emma,Credit Card,0
+ORD348,2026-04-14,P019,Conference Camera,1,South West,Business,Sarah,Credit Card,10
+ORD051,2025-09-24,P014,External SSD,3,South West,Business,Michael,Bank Transfer,10
+ORD312,2026-04-22,P005,Monitor,1,North West,Consumer,James,Debit Card,0
+ORD374,2026-05-15,P009,Mechanical Keyboard,4,South West,Business,Sarah,PayPal,20
+ORD479,2026-08-26,P019,Conference Camera,1,South West,Business,Sarah,PayPal,10
+ORD340,2026-04-12,P001,Laptop,1,Midlands,Consumer,Emma,Credit Card,15
+ORD272,2026-03-01,P001,Laptop,1,London,Consumer,Michael,Debit Card,0
+ORD204,2026-01-31,P010,Mouse,4,London,Consumer,Emma,Bank Transfer,5
+ORD111,2025-11-13,P012,Docking Station,2,Midlands,Consumer,Emma,PayPal,0
+ORD184,2025-12-24,P001,Laptop,1,South West,Consumer,Emma,Credit Card,5
+ORD309,2026-04-09,P014,External SSD,2,South West,Business,Sarah,Bank Transfer,5
+ORD143,2025-12-03,P013,USB Hub,2,London,Business,James,Credit Card,5
+ORD343,2026-04-19,P011,Gaming Mouse,2,London,Business,James,Credit Card,20
+ORD189,2025-12-24,P018,Webcam,2,London,Consumer,James,Debit Card,5
+ORD120,2025-11-09,P011,Gaming Mouse,1,North West,Consumer,Emma,Credit Card,5
+ORD161,2025-12-28,P009,Mechanical Keyboard,2,North West,Consumer,Emma,PayPal,10
+ORD209,2026-01-17,P015,Headset,1,North West,Consumer,Michael,Credit Card,15
+ORD346,2026-04-14,P005,Monitor,1,South West,Consumer,James,Bank Transfer,0
+ORD407,2026-06-15,P007,Ultrawide Monitor,2,North West,Consumer,James,Bank Transfer,0
+ORD247,2026-02-01,P002,Desktop PC,1,South West,Business,Emma,Bank Transfer,5
+ORD135,2025-11-08,P009,Mechanical Keyboard,4,South West,Consumer,Sarah,PayPal,10
+ORD053,2025-09-02,P005,Monitor,1,London,Business,Michael,Debit Card,0
+ORD335,2026-04-01,P015,Headset,1,Midlands,Business,Sarah,Bank Transfer,5
+ORD112,2025-11-17,P001,Laptop,1,London,Consumer,Emma,Credit Card,10
+ORD118,2025-11-28,P001,Laptop,3,North West,Consumer,Emma,Credit Card,5
+ORD214,2026-01-31,P011,Gaming Mouse,2,South West,Consumer,James,Credit Card,5
+ORD396,2026-06-05,P003,Mini PC,1,South West,Business,Emma,Bank Transfer,5
+ORD085,2025-10-27,P018,Webcam,3,London,Consumer,James,PayPal,5
+ORD046,2025-09-02,P003,Mini PC,1,London,Consumer,Michael,PayPal,5
+ORD207,2026-01-10,P007,Ultrawide Monitor,4,South West,Business,Sarah,Bank Transfer,20
+ORD322,2026-04-16,P009,Mechanical Keyboard,3,Midlands,Business,Michael,Credit Card,5
+ORD464,2026-07-24,P003,Mini PC,2,South West,Business,Sarah,Credit Card,5
+ORD431,2026-06-01,P003,Mini PC,2,South West,Business,Michael,Credit Card,15
+ORD433,2026-06-07,P001,Laptop,2,Midlands,Consumer,Michael,Debit Card,0
+ORD127,2025-11-01,P010,Mouse,3,London,Consumer,Sarah,Debit Card,5
+ORD123,2025-11-28,P013,USB Hub,6,South West,Business,Sarah,Credit Card,15
+ORD103,2025-11-24,P010,Mouse,4,London,Business,James,Credit Card,10
+ORD295,2026-03-12,P015,Headset,1,South West,Consumer,Michael,Credit Card,5
+ORD334,2026-04-16,P010,Mouse,2,London,Consumer,Michael,PayPal,5
+ORD179,2025-12-30,P010,Mouse,3,North West,Consumer,Emma,Debit Card,10
+ORD410,2026-06-06,P018,Webcam,2,Midlands,Consumer,Michael,PayPal,5
+ORD371,2026-05-11,P008,Keyboard,2,South West,Consumer,Emma,Bank Transfer,0
+ORD039,2025-09-26,P007,Ultrawide Monitor,2,North West,Business,James,Debit Card,15
+ORD080,2025-10-26,P005,Monitor,3,South West,Business,Emma,Credit Card,10
+ORD032,2025-09-28,P016,Speakers,4,London,Business,Sarah,Bank Transfer,15
+ORD347,2026-04-05,P018,Webcam,1,London,Consumer,James,Credit Card,0
+ORD219,2026-01-13,P016,Speakers,2,London,Business,Michael,PayPal,0
+ORD435,2026-07-20,P012,Docking Station,1,Midlands,Consumer,Michael,Credit Card,15
+ORD326,2026-04-04,P001,Laptop,1,North West,Consumer,Sarah,PayPal,0
+ORD146,2025-12-23,P013,USB Hub,3,London,Business,Michael,Credit Card,10
+ORD447,2026-07-13,P005,Monitor,1,South West,Consumer,Sarah,PayPal,0
+ORD403,2026-06-02,P014,External SSD,3,London,Consumer,Emma,PayPal,0
+ORD059,2025-10-08,P011,Gaming Mouse,2,North West,Consumer,Sarah,Credit Card,5
+ORD072,2025-10-06,P001,Laptop,1,South West,Business,James,Credit Card,10
+ORD037,2025-09-22,P005,Monitor,2,South West,Business,James,Bank Transfer,10
+ORD043,2025-09-16,P007,Ultrawide Monitor,2,North West,Consumer,Emma,Credit Card,5
+ORD099,2025-11-10,P007,Ultrawide Monitor,1,Midlands,Business,James,Debit Card,0
+ORD292,2026-03-04,P005,Monitor,3,London,Business,James,Credit Card,20
+ORD366,2026-05-08,P012,Docking Station,5,Midlands,Business,Emma,Debit Card,5
+ORD480,2026-08-30,P008,Keyboard,1,South West,Consumer,James,Debit Card,0
+ORD388,2026-05-05,P015,Headset,1,South West,Consumer,James,Debit Card,0
+ORD254,2026-02-10,P006,"Monitor 27""",1,London,Consumer,James,Debit Card,20
+ORD365,2026-05-07,P005,Monitor,3,North West,Business,James,Bank Transfer,5
+ORD019,2026-08-03,P015,Headset,3,Midlands,Business,Michael,Credit Card,10
+ORD330,2026-04-20,P010,Mouse,1,Midlands,Consumer,Emma,Debit Card,5
+ORD465,2026-07-26,P010,Mouse,3,South West,Business,Sarah,Debit Card,5
+ORD096,2025-11-12,P006,"Monitor 27""",1,Midlands,Consumer,Sarah,Credit Card,0
+ORD481,2026-08-05,P004,Gaming Laptop,1,North West,Consumer,Sarah,Debit Card,0
+ORD458,2026-07-16,P009,Mechanical Keyboard,3,London,Consumer,James,PayPal,0
+ORD311,2026-04-03,P014,External SSD,4,South West,Business,James,Bank Transfer,15
+ORD193,2025-12-15,P004,Gaming Laptop,1,North West,Business,Sarah,Bank Transfer,0
+ORD058,2025-10-11,P015,Headset,3,North West,Consumer,Sarah,Credit Card,5
+ORD449,2026-07-21,P010,Mouse,4,London,Consumer,James,Credit Card,10
+ORD446,2026-07-20,P010,Mouse,2,Midlands,Consumer,Emma,Credit Card,10
+ORD078,2025-10-16,P014,External SSD,3,London,Consumer,James,PayPal,0
+ORD261,2026-02-06,P016,Speakers,1,South West,Business,Michael,Bank Transfer,15
+ORD131,2025-11-29,P009,Mechanical Keyboard,1,North West,Consumer,James,Debit Card,5
+ORD269,2026-02-15,P013,USB Hub,6,Midlands,Business,James,Debit Card,5
+ORD139,2025-11-02,P013,USB Hub,3,South West,Business,Sarah,Bank Transfer,5
+ORD314,2026-04-14,P004,Gaming Laptop,1,South West,Consumer,Michael,Credit Card,5
+ORD405,2026-06-17,P018,Webcam,3,North West,Business,Emma,Bank Transfer,15
+ORD288,2026-03-30,P005,Monitor,1,London,Consumer,Sarah,Credit Card,5
+ORD453,2026-07-21,P006,"Monitor 27""",3,South West,Business,Emma,Bank Transfer,5
+ORD418,2026-06-18,P007,Ultrawide Monitor,1,London,Consumer,Emma,Credit Card,5
+ORD354,2026-05-04,P005,Monitor,1,North West,Business,James,Bank Transfer,0
+ORD439,2026-07-21,P009,Mechanical Keyboard,4,North West,Business,Michael,Bank Transfer,10
+ORD244,2026-02-07,P003,Mini PC,2,North West,Consumer,Michael,Credit Card,0
+ORD307,2026-03-25,P001,Laptop,4,South West,Business,Sarah,Bank Transfer,20
+ORD420,2026-06-13,P017,Microphone,1,South West,Consumer,Michael,Credit Card,5
+ORD394,2026-06-23,P004,Gaming Laptop,1,London,Consumer,Michael,Debit Card,5
+ORD203,2026-01-23,P004,Gaming Laptop,1,London,Consumer,Michael,Debit Card,0
+ORD474,2026-08-19,P001,Laptop,2,South West,Consumer,Michael,Credit Card,0
+ORD238,2026-02-15,P002,Desktop PC,1,North West,Business,Sarah,Credit Card,10
+ORD302,2026-03-01,P013,USB Hub,6,North West,Business,Michael,Bank Transfer,10
+ORD068,2025-10-01,P006,"Monitor 27""",1,North West,Consumer,Emma,Debit Card,10
+ORD021,2025-09-04,P009,Mechanical Keyboard,1,Midlands,Consumer,Michael,PayPal,5
+ORD040,2025-09-22,P008,Keyboard,5,London,Business,James,Bank Transfer,15
+ORD488,2026-08-05,P017,Microphone,1,Midlands,Consumer,James,Credit Card,10
+ORD177,2025-12-12,P010,Mouse,3,London,Consumer,Sarah,Debit Card,0
+ORD496,2026-08-08,P009,Mechanical Keyboard,1,London,Consumer,Michael,Debit Card,0
+ORD274,2026-03-31,P001,Laptop,2,South West,Consumer,Sarah,Debit Card,10
+ORD308,2026-03-13,P018,Webcam,2,South West,Business,Sarah,PayPal,5
+ORD327,2026-04-05,P011,Gaming Mouse,5,South West,Business,Michael,Bank Transfer,20
+ORD333,2026-04-15,P015,Headset,1,South West,Consumer,Sarah,Debit Card,20
+ORD383,2026-05-18,P008,Keyboard,1,South West,Consumer,Sarah,Bank Transfer,5
+ORD106,2025-11-13,P010,Mouse,2,South West,Consumer,James,Debit Card,10
+ORD031,2025-09-13,P018,Webcam,2,South West,Consumer,Emma,Debit Card,5
+ORD065,2025-10-08,P018,Webcam,4,Midlands,Business,James,Bank Transfer,15
+ORD190,2025-12-04,P008,Keyboard,2,London,Consumer,Michael,Credit Card,0
+ORD430,2026-06-26,P001,Laptop,1,Midlands,Business,Emma,Credit Card,0
+ORD136,2025-11-11,P009,Mechanical Keyboard,3,North West,Business,Emma,Bank Transfer,10
+ORD071,2025-10-01,P011,Gaming Mouse,1,London,Consumer,James,Credit Card,0
+ORD325,2026-04-25,P008,Keyboard,1,Midlands,Business,James,Credit Card,5
+ORD141,2025-11-25,P008,Keyboard,2,South West,Business,James,Bank Transfer,10
+ORD020,2026-08-08,P001,Laptop,1,London,Consumer,Emma,PayPal,0
+ORD033,2025-09-23,P014,External SSD,3,London,Business,James,Bank Transfer,5
+ORD489,2026-08-10,P001,Laptop,1,South West,Business,Emma,Credit Card,15
+ORD107,2025-11-03,P015,Headset,1,South West,Consumer,Sarah,Credit Card,0
+ORD105,2025-11-04,P010,Mouse,4,London,Consumer,Emma,Credit Card,5
+ORD013,2026-05-21,P005,Monitor,2,North West,Business,James,Bank Transfer,5
+ORD108,2025-11-25,P016,Speakers,2,London,Consumer,Sarah,Debit Card,15
+ORD156,2025-12-20,P008,Keyboard,5,London,Business,James,Bank Transfer,10
+ORD443,2026-07-29,P008,Keyboard,2,North West,Consumer,Emma,PayPal,15
+ORD230,2026-01-17,P008,Keyboard,2,South West,Consumer,Sarah,Debit Card,0
+ORD067,2025-10-15,P008,Keyboard,4,London,Consumer,James,PayPal,0
+ORD290,2026-03-22,P001,Laptop,2,London,Consumer,Michael,PayPal,15
+ORD009,2026-04-02,P008,Keyboard,1,North West,Consumer,James,PayPal,20
+ORD462,2026-07-17,P010,Mouse,1,Midlands,Consumer,James,PayPal,5
+ORD437,2026-07-02,P017,Microphone,2,South West,Consumer,Sarah,Credit Card,10
+ORD280,2026-03-07,P015,Headset,5,London,Business,James,Bank Transfer,0
+ORD258,2026-02-10,P020,Printer,1,Midlands,Consumer,Michael,Credit Card,10
+ORD310,2026-04-20,P008,Keyboard,3,South West,Business,James,Credit Card,15
+ORD266,2026-02-26,P019,Conference Camera,1,London,Business,James,Bank Transfer,0
+ORD004,2026-02-03,P010,Mouse,2,North West,Consumer,Emma,PayPal,0
+ORD484,2026-08-01,P017,Microphone,2,Midlands,Consumer,Michael,Credit Card,0
+ORD191,2025-12-24,P020,Printer,2,Midlands,Business,Michael,Credit Card,0
+ORD104,2025-11-03,P018,Webcam,1,South West,Consumer,Sarah,PayPal,0
+ORD370,2026-05-30,P005,Monitor,2,London,Consumer,Sarah,Debit Card,10
+ORD487,2026-08-20,P012,Docking Station,3,London,Business,James,Bank Transfer,15
+ORD006,2026-02-27,P015,Headset,1,South West,Consumer,Sarah,Not Recorded,0
+ORD062,2025-10-29,P004,Gaming Laptop,1,Midlands,Consumer,Sarah,Debit Card,5
+ORD205,2026-01-04,P013,USB Hub,2,London,Business,James,Credit Card,20
+ORD494,2026-08-19,P019,Conference Camera,1,South West,Consumer,Sarah,Credit Card,0
+ORD497,2026-08-16,P014,External SSD,1,Midlands,Consumer,Emma,Credit Card,0
+ORD187,2025-12-29,P014,External SSD,1,North West,Consumer,Emma,Credit Card,5
+ORD318,2026-04-14,P001,Laptop,2,London,Consumer,Michael,Bank Transfer,0
+ORD188,2025-12-03,P016,Speakers,2,South West,Consumer,Sarah,PayPal,5
+ORD212,2026-01-22,P007,Ultrawide Monitor,3,North West,Business,James,PayPal,0
+ORD401,2026-06-26,P011,Gaming Mouse,2,Midlands,Business,Sarah,PayPal,15
+ORD273,2026-03-08,P010,Mouse,2,North West,Consumer,Sarah,PayPal,0
+ORD475,2026-08-23,P020,Printer,1,Midlands,Consumer,Michael,PayPal,10
+ORD468,2026-07-18,P014,External SSD,2,London,Consumer,James,Credit Card,15
+ORD014,2026-06-04,P018,Webcam,1,South West,Consumer,Sarah,PayPal,0
+ORD380,2026-05-19,P007,Ultrawide Monitor,3,Midlands,Business,James,Bank Transfer,0
+ORD270,2026-03-29,P008,Keyboard,3,North West,Consumer,Emma,PayPal,0
+ORD361,2026-05-22,P001,Laptop,2,London,Business,James,PayPal,20
+ORD456,2026-07-17,P010,Mouse,5,South West,Business,Michael,Bank Transfer,10
+ORD263,2026-02-28,P013,USB Hub,5,Midlands,Business,Sarah,PayPal,5
+ORD336,2026-04-27,P013,USB Hub,1,Midlands,Consumer,Emma,Bank Transfer,10
+ORD192,2025-12-05,P005,Monitor,2,Midlands,Consumer,James,Debit Card,0
+ORD375,2026-05-24,P013,USB Hub,5,Midlands,Business,Michael,Bank Transfer,10
+ORD415,2026-06-26,P003,Mini PC,2,Midlands,Business,Sarah,Credit Card,0
+ORD195,2025-12-02,P006,"Monitor 27""",2,South West,Consumer,Michael,Credit Card,0
+ORD175,2025-12-30,P005,Monitor,1,London,Business,James,Bank Transfer,15
+ORD079,2025-10-08,P014,External SSD,3,Midlands,Business,Michael,Bank Transfer,5
+ORD115,2025-11-13,P012,Docking Station,2,Midlands,Business,Michael,Credit Card,5
+ORD229,2026-01-03,P010,Mouse,2,North West,Business,James,Credit Card,15
+ORD386,2026-05-15,P004,Gaming Laptop,2,Midlands,Consumer,Sarah,PayPal,5
+ORD402,2026-06-20,P008,Keyboard,1,London,Consumer,Sarah,Debit Card,0
+ORD235,2026-01-09,P015,Headset,3,South West,Consumer,James,Credit Card,0
+ORD451,2026-07-09,P013,USB Hub,5,South West,Business,James,Debit Card,5
+ORD162,2025-12-18,P018,Webcam,2,South West,Business,Emma,Credit Card,15
+ORD047,2025-09-10,P020,Printer,3,South West,Business,Sarah,Debit Card,5
+ORD414,2026-06-10,P008,Keyboard,2,London,Business,Sarah,Credit Card,0
+ORD463,2026-07-25,P003,Mini PC,1,North West,Business,Michael,Bank Transfer,0
+ORD073,2025-10-31,P002,Desktop PC,3,Midlands,Business,Emma,Bank Transfer,15
+ORD459,2026-07-01,P001,Laptop,1,North West,Consumer,Emma,Credit Card,15
+ORD157,2025-12-22,P016,Speakers,4,South West,Consumer,Michael,Credit Card,0
+ORD133,2025-11-13,P001,Laptop,1,London,Consumer,Michael,Credit Card,0
+ORD341,2026-04-09,P003,Mini PC,2,London,Business,Sarah,Debit Card,15
+ORD432,2026-06-15,P003,Mini PC,2,North West,Business,James,Bank Transfer,0
+ORD082,2025-10-24,P011,Gaming Mouse,2,London,Consumer,Michael,Credit Card,5
+ORD168,2025-12-16,P013,USB Hub,4,Midlands,Business,Michael,Bank Transfer,10
+ORD411,2026-06-12,P006,"Monitor 27""",1,North West,Consumer,James,Credit Card,5
+ORD284,2026-03-14,P017,Microphone,1,North West,Business,James,Credit Card,5
+ORD461,2026-07-30,P006,"Monitor 27""",1,Midlands,Business,Sarah,Bank Transfer,10
+ORD321,2026-04-02,P008,Keyboard,3,Midlands,Business,James,PayPal,5
+ORD003,2026-01-25,P008,Keyboard,3,Midlands,Business,Michael,Bank Transfer,10
+ORD367,2026-05-28,P012,Docking Station,2,London,Consumer,James,Bank Transfer,10
+ORD210,2026-01-02,P006,"Monitor 27""",1,London,Consumer,Emma,PayPal,0
+ORD164,2025-12-21,P020,Printer,1,Midlands,Business,James,Credit Card,5
+ORD007,2026-03-06,P005,Monitor,4,Midlands,Business,Michael,Bank Transfer,10
+ORD412,2026-06-13,P019,Conference Camera,2,South West,Business,Sarah,Bank Transfer,10
+ORD442,2026-07-12,P020,Printer,2,Midlands,Business,James,PayPal,10
+ORD470,2026-08-01,P001,Laptop,4,Midlands,Business,Sarah,Bank Transfer,15
+ORD476,2026-08-21,P013,USB Hub,2,London,Consumer,Sarah,Debit Card,0
+ORD389,2026-05-18,P004,Gaming Laptop,1,London,Consumer,Michael,Debit Card,0
+ORD185,2025-12-31,P001,Laptop,1,South West,Consumer,Sarah,Debit Card,20
+ORD094,2025-11-27,P013,USB Hub,1,Midlands,Consumer,Michael,Credit Card,0
+ORD041,2025-09-30,P008,Keyboard,2,London,Business,Sarah,Credit Card,20
+ORD438,2026-07-06,P003,Mini PC,1,Midlands,Business,Michael,Credit Card,0
+ORD457,2026-07-03,P007,Ultrawide Monitor,1,London,Consumer,James,Credit Card,0
+ORD114,2025-11-15,P004,Gaming Laptop,1,London,Consumer,James,Debit Card,0
+ORD122,2025-11-14,P017,Microphone,1,South West,Business,James,Credit Card,10
+ORD444,2026-07-25,P010,Mouse,1,North West,Consumer,Sarah,PayPal,0
+ORD445,2026-07-20,P013,USB Hub,1,London,Business,Michael,Bank Transfer,10
+ORD045,2025-09-23,P016,Speakers,3,South West,Consumer,Sarah,Credit Card,0
+ORD145,2025-12-31,P018,Webcam,2,London,Consumer,Michael,Credit Card,0
+ORD063,2025-10-28,P005,Monitor,1,South West,Business,Michael,Bank Transfer,15
+ORD221,2026-01-04,P009,Mechanical Keyboard,1,South West,Consumer,Emma,Debit Card,0
+ORD478,2026-08-31,P015,Headset,2,London,Consumer,James,Credit Card,10
+ORD260,2026-02-28,P006,"Monitor 27""",3,South West,Business,Emma,Credit Card,0
+ORD030,2025-09-19,P017,Microphone,2,North West,Consumer,Michael,PayPal,20
+ORD226,2026-01-31,P015,Headset,1,London,Consumer,Emma,PayPal,5
+ORD404,2026-06-04,P005,Monitor,1,North West,Business,Emma,Credit Card,0
+ORD377,2026-05-26,P006,"Monitor 27""",1,Midlands,Consumer,Michael,PayPal,10
+ORD243,2026-02-06,P002,Desktop PC,2,London,Consumer,Michael,Debit Card,0
+ORD011,2026-04-29,P010,Mouse,4,Midlands,Business,Michael,Credit Card,5

@@ -19,6 +19,7 @@ products.info()
 
 
 # SALES DATA CHECKING
+print("\n=== SALES DATA CHECKING ===")
 
 # Check descriptive statistics
 print(sales.describe())
@@ -56,6 +57,7 @@ print(sales[~sales["Product"].isin(products["Product"])])
 
 
 # PRODUCTS DATA CHECKING
+print("\n=== PRODUCTS DATA CHECKING ===")
 
 # Check descriptive statistics
 print(products.describe())
@@ -73,9 +75,20 @@ print(products["Category"].unique())
 # Check numeric values are within valid ranges
 print(products[products["UnitPrice"] <= 0])
 
+# Check CostPrice values are valid
+print(products[products["CostPrice"] <= 0])
+
+# Check that all ProductIDs in sales exist in the products dataset
+print(
+    sales[
+        ~sales["ProductID"].isin(products["ProductID"])
+    ]
+)
+
 
 
 # SALES DATA CLEANING
+print("\n=== SALES DATA CLEANING ===")
 
 # Fill missing Region values with "Unknown"
 sales["Region"] = sales["Region"].fillna("Unknown")
@@ -218,6 +231,7 @@ sales["OrderDate"] = pd.to_datetime(
 print(sales["OrderDate"].dtype)
 
 # PRODUCTS DATA CLEANING
+print("\n=== PRODUCT DATA CLEANING ===")
 
 #  Standardise Category values
 products["Category"] = products["Category"].replace(
@@ -254,7 +268,9 @@ products["Product"] = products["Product"].replace(to_replace="Web Cam",value="We
 # Verify Product values
 print(products["Product"].unique())
 
+
 # CLEANING VALIDATION
+print("\n=== CLEANING VALIDATION ===")
 
 # Verify no missing values remain
 print(sales.isna().sum())
@@ -274,3 +290,189 @@ print(sales["OrderDate"].dtype)
 
 # Verify all products in sales exist in the products dataset
 print(sales[~sales["Product"].isin(products["Product"])])
+
+# Save cleaned copys of the CSV files
+
+sales.to_csv("data/cleaned/sales_clean.csv", index=False)
+products.to_csv("data/cleaned/products_clean.csv", index=False)
+
+# Verify CostPrice values are valid
+print(products[products["CostPrice"] <= 0])
+
+# Verify all ProductIDs in sales exist in the products dataset
+print(
+    sales[
+        ~sales["ProductID"].isin(products["ProductID"])
+    ]
+)
+
+# MERGE DATASET
+print('\n ===MERGE DATASET===')
+
+
+# Merge sales with product details using ProductID
+sales_merged = sales.merge(
+    products[["ProductID", "Category", "UnitPrice", "CostPrice"]],
+    on="ProductID",
+    how="left",
+    validate="many_to_one"
+)
+
+# Verify the number of rows and columns after the merge
+print(sales.shape)
+print(sales_merged.shape)
+
+# Inspect the merged dataset
+print(sales_merged.head())
+
+# Verify no missing values were introduced by the merge
+print(
+    sales_merged[
+        ["Category", "UnitPrice", "CostPrice"]
+    ].isna().sum()
+)
+
+
+# FEATURE CREATION
+print('\ ===FEATURE CREATION')
+
+# Calculate gross revenue before discounts
+sales_merged["GrossRevenue"] = (
+    sales_merged["Quantity"] * sales_merged["UnitPrice"]
+)
+
+# Verify GrossRevenue values
+print(
+    sales_merged[
+        ["Product", "Quantity", "UnitPrice", "GrossRevenue"]
+    ].head()
+)
+
+
+# Calculate discount amount
+sales_merged["DiscountAmount"] = (
+    (sales_merged["Discount"] / 100) * sales_merged["GrossRevenue"]
+)
+
+# Inspect GrossRevenue, Discount and DiscountAmount together
+print(
+    sales_merged[
+        ["Product", "GrossRevenue", "Discount", "DiscountAmount"]
+    ].head()
+)
+
+# Calculate net revenue after discounts
+sales_merged["NetRevenue"] = (
+    sales_merged["GrossRevenue"] - sales_merged["DiscountAmount"]
+)
+
+# Verify NetRevenue values
+print(
+    sales_merged[
+        ["GrossRevenue", "DiscountAmount", "NetRevenue"]
+    ].head()
+)
+
+
+# Calculate total cost of product sold
+sales_merged["TotalCost"] = (
+    sales_merged["CostPrice"] * sales_merged["Quantity"]
+)
+
+# Verify TotalCost values
+print(
+    sales_merged[
+        ["Product", "Quantity", "TotalCost"]
+    ].head()
+)
+
+
+# Calculate gross profit from each sale
+sales_merged["GrossProfit"] = (
+    sales_merged["NetRevenue"] - sales_merged["TotalCost"]
+)
+
+# Verify gross profit values
+print(
+    sales_merged[
+        ["Product", "NetRevenue", "TotalCost", "GrossProfit"]
+    ].head()
+)
+
+
+# Calculate profit margine from each sale
+sales_merged["ProfitMargin"] = (
+    sales_merged["GrossProfit"] / sales_merged["NetRevenue"] * 100
+).round(2)
+
+# Verify profit margin values
+print(
+    sales_merged[
+        ["Product", "TotalCost", "GrossProfit", "ProfitMargin"]
+    ].head()
+)
+
+print( sales_merged.head())
+
+# Create a Year column from OrderDate
+sales_merged["Year"] = sales_merged["OrderDate"].dt.year
+
+# Verify Year values
+print(
+    sales_merged[
+        ["OrderDate", "Year"]
+    ].head()
+)
+
+# Create a MonthNumber column from OrderDate
+sales_merged["MonthNumber"] = sales_merged["OrderDate"].dt.month
+
+# Verify MonthNumber values
+print(
+    sales_merged[
+        ["OrderDate", "MonthNumber"]
+    ].head()
+)
+
+# Create a Month column from OrderDate
+sales_merged["Month"] = sales_merged["OrderDate"].dt.month_name()
+
+# Verify Month values
+print(
+    sales_merged[
+        ["OrderDate", "MonthNumber", "Month"]
+    ].head()
+)
+
+# Create a YearMonth column from OrderDate
+sales_merged["YearMonth"] = sales_merged["OrderDate"].dt.to_period(freq="M")
+
+# Verify YearMonth values
+print(
+    sales_merged[
+        ["OrderDate", "YearMonth"]
+    ].head()
+)
+
+# Create a HasDiscount column
+sales_merged["HasDiscount"] = sales_merged["Discount"] > 0
+
+# Verify HasDiscount values
+print(
+    sales_merged[
+        ["Discount", "HasDiscount"]
+    ].head()
+)
+
+# OVERALL KPI ANALYSIS
+print('\ ===OVERALL KPI ANALISYS')
+
+# Calculate total net revenue
+Total_Net_Revenue = sales_merged["NetRevenue"].sum()
+
+print(f"Total_Net_Revenue: £{Total_Net_Revenue:,.2f}")
+
+
+
+
+

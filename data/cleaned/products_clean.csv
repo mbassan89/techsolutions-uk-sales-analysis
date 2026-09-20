@@ -1,0 +1,21 @@
+ProductID,Product,Category,UnitPrice,CostPrice
+P013,USB Hub,Accessories,40.0,15
+P018,Webcam,Video,75.0,30
+P011,Gaming Mouse,Accessories,80.0,35
+P012,Docking Station,Accessories,180.0,95
+P001,Laptop,Computer,900.0,650
+P010,Mouse,Accessories,35.0,12
+P017,Microphone,Audio,130.0,70
+P016,Speakers,Audio,110.0,55
+P006,"Monitor 27""",Display,320.0,220
+P003,Mini PC,Computer,650.0,450
+P004,Gaming Laptop,Computer,1800.0,1350
+P002,Desktop PC,Computer,1200.0,850
+P009,Mechanical Keyboard,Accessories,120.0,65
+P019,Conference Camera,Video,300.0,170
+P005,Monitor,Display,250.0,170
+P015,Headset,Audio,90.0,45
+P020,Printer,Office,220.0,130
+P014,External SSD,Accessories,140.0,75
+P007,Ultrawide Monitor,Display,500.0,350
+P008,Keyboard,Accessories,70.0,35

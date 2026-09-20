@@ -1,22 +1,22 @@
-﻿Product,Category,UnitPrice
-Laptop,Computer,1200
-Desktop PC,Computer,950
-Mini PC,Computer,700
-Gaming Laptop,Computer,1800
-Monitor,Display,180
-"Monitor 27""",Display,280
-Ultrawide Monitor,Display,520
-Keyboard,Accessories,
-Mechanical Keyboard,Accessories,120
-Mouse,Accessories,35
-Gaming Mouse,Accessorise,80
-Docking Station,Accessorise,180
-USB Hub,Accessories,40
-External SSD,Accessories,-140
-Headset,Audio,150
-Speakers,Audio,220
-Microphone,Audio,130
-Web Cam,Video,90
-Conference Camera,Video,350
-Printer,Office,320
-Mechanical Keyboard,Accessories,120
+﻿ProductID,Product,Category,UnitPrice,CostPrice
+P013,USB Hub,Accessories,40,15
+P018,Web Cam,Video,75,30
+P011,Gaming Mouse,Accessorise,80,35
+P012,Docking Station,Accessorise,180,95
+P001,Laptop,Computer,900,650
+P010,Mouse,Accessories,35,12
+P017,Microphone,Audio,130,70
+P016,Speakers,Audio,110,55
+P006,"Monitor 27""",Display,320,220
+P003,Mini PC,Computer,650,450
+P004,Gaming Laptop,Computer,1800,1350
+P002,Desktop PC,Computer,1200,850
+P009,Mechanical Keyboard,Accessories,120,65
+P019,Conference Camera,Video,300,170
+P005,Monitor,Display,250,170
+P015,Headset,Audio,90,45
+P009,Mechanical Keyboard,Accessories,120,65
+P020,Printer,Office,220,130
+P014,External SSD,Accessories,-140,75
+P007,Ultrawide Monitor,Display,500,350
+P008,Keyboard,Accessories,,35
